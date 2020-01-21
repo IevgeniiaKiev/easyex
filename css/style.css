@@ -219,7 +219,7 @@ a {
 }
 
 .text-heading {
-  max-width: 183px;
+  max-width: 140px;
   margin: 0 auto;
   font-size: 24px;
   font-weight: 500;
@@ -227,8 +227,15 @@ a {
   border-bottom: 5px solid #00BEDD;
 }
 
+@media screen and (min-width: 375px) {
+  .text-heading {
+    max-width: 160px;
+  }
+}
+
 @media screen and (min-width: 425px) {
   .text-heading {
+    max-width: 183px;
     font-size: 30px;
   }
 }
