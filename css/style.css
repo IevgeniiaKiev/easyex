@@ -93,8 +93,28 @@ a {
   align-items: center;
 }
 
-.logo:first-child img {
+.logo img:first-child {
   padding-right: 10px;
+}
+
+.logo_sign {
+  width: 65px;
+}
+
+.logo_name {
+  width: 145px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo_sign {
+    width: 98px;
+    height: 82px;
+  }
+
+  .logo_name {
+    width: 164px;
+    height: 46px;
+  }
 }
 
 .txt-right {
