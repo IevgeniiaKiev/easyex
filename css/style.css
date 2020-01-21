@@ -14,9 +14,15 @@ a {
 
 .main {
   width: 100%;
-  padding-top: 70px;
+  padding-top: 20px;
   background: #00BEDD url('../img/bg_figures.svg') no-repeat 50% 70px;
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding-top: 70px;
+  }
 }
 
 .wrap-1025 {
@@ -102,7 +108,7 @@ a {
 .img-people {
   width: 100%;
   max-width: 480px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -237,14 +243,14 @@ a {
   overflow-y: hidden;
 }
 
-.wrap-1140 {
+.wrap-1170 {
   max-width: 1170px;
   margin: 0 auto;
   padding: 80px 15px;
 }
 
 @media screen and (min-width: 1024px) {
-  .wrap-1140 {
+  .wrap-1170 {
     padding: 100px 15px 92px 15px;
   }
 }
