@@ -263,6 +263,7 @@ a {
 
 .txt-dscrptn {
   margin-top: 5px;
+  padding: 0 5px;
   font-size: 20px;
   font-weight: 300;
   color: #252A34;
@@ -537,6 +538,12 @@ a {
 @media screen and (min-width: 1024px) {
   .wrap-1490 {
     padding: 110px 15px 80px 15px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .wrap-1490 {
+    padding-bottom: 150px;
   }
 }
 
