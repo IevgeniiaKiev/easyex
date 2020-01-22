@@ -145,16 +145,27 @@ a {
   font-size: 25px;
 }
 
-.font-27 {
-  font-size: 27px;
-}
-
-.font-35 {
-  font-size: 35px;
-}
-
 .txt-img-ppl {
   display: inline-block;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+  .txt-img-ppl {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .txt-img-ppl {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .txt-img-ppl {
+    font-size: 27px;
+  }
 }
 
 .line-white,
@@ -205,6 +216,7 @@ a {
 .txt-easy {
   margin-top: 30px;
   margin-bottom: 8px;
+  font-size: 35px;
 }
 
 .btn {
@@ -464,12 +476,18 @@ a {
 }
 
 .heading-call {
-  max-width: 380px;
+  max-width: 250px;
   margin: 0 auto;
   margin-bottom: 48px;
   font-size: 32px;
   color: #252A34;
   text-align: center;
+}
+
+@media screen and (min-width: 425px) {
+  .heading-call {
+    max-width: 380px;
+  }
 }
 
 @media screen and (min-width: 768px) {
